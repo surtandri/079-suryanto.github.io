@@ -1,0 +1,407 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.semua{
+	padding: 16px;
+  	margin-top: 30px;
+  	height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.background{
+  	display: table;
+  	position: relative;
+  	background-image: url(img/cover.jpg);
+  	background-size: cover;
+  	padding: 150px 0;
+  	color: #fff;
+  	width: 100%;
+  	height: 10%;
+}
+
+.background:after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.fontfont{
+	font-family: Arial;
+	color: rgb(109, 13, 13);
+	font-size: 3em;
+}
+
+#font1{
+	font-family: Arial;
+	color: black !important;
+	font-size: 1em;
+}
+
+#fontskill{
+	font-family: Arial;
+	color: blue !important;
+	font-size: 1em;
+	text-align: center;
+}
+
+.font1{
+	font-family: Arial;
+	color: rgb(109, 13, 13);
+	font-size: 3em;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#aboutme{
+	height: 2%;
+	width: 30%;
+	margin-left: 40%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.sidebar{
+	background-color: rgb(238, 235, 235);
+	flex: 10%;
+	padding: 20px;
+	text-align: center;
+}
+
+.sidebar1{
+	background-color: #0B0B15;
+	flex: 30%;
+	color: white;
+	padding: 2%;
+	text-align: right;
+}
+
+.rowskill{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidebarskill{
+	background-color: white;
+	flex: 10%;
+	padding: 0;
+	padding-right: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 1;
+}
+
+.mainskill{
+	background-color: white;
+	flex: 50%;
+	padding: 20px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.isianfooter{
+	flex: 30%;
+	color: white;
+	padding: 0%;
+	text-align: left;
+	margin: 0%;
+}
+
+#project1{
+	width: 40%;
+	height: 20%;
+	margin-left: 30%;
+	margin-right: 33%;
+	float: center;
+}
+
+.myproject{
+	display: table;
+  	position: relative;
+  	background-image: url(img/bgproject.jpg);
+  	background-size: cover;
+  	padding-top: 50px;
+  	color: white;
+  	width: 100%;
+  	height: 5%;
+  	text-align: center;
+  	font-size: 2em;
+}
+
+.sidebarku{
+	display: flex;
+	background-color: white;
+	flex: 40%;
+	width: 50%;
+	padding-left: 15%;
+	padding-right: 5%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.sidebarkuy{
+	display: flex;
+	background-color: white;
+	flex: 5%;
+	margin-top: 0;
+	padding-left: 25%;
+	margin-bottom: 0;
+	text-align: center;
+	margin-right: 20%;
+}
+
+.mainku{
+	background-color: white;
+	flex: 0%;
+	margin-left: 0;
+	padding-left: 0;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+table{
+	text-align: center;
+}
+
+.jarak1{
+	width: 40%;
+	padding: 2%;
+	background: rgb(209, 185, 185);
+}
+
+.main{
+	background-color: rgb(238, 216, 206);
+	flex: 50%;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.atasan{
+	background-color: black;
+	height: 15%;
+}
+
+.bio{
+	width: 40%;
+	height: 30%;
+	display: flex;
+	margin: auto;
+}
+
+.logoan{
+	display: flex;
+	overflow: hidden;
+	float: right;
+    color: #f2f2f2;
+    width: 100%;
+    padding: 2%;
+    text-decoration: none;
+ }
+
+.logoan img{
+	display: flex;
+}
+
+.logologo ul: hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.buatmenu {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    text-align: center;
+}
+ 
+.buatmenu a{
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+.buatmenu a:hover{
+    color: red;
+    background-color: red;
+	transition: 1s color ease-in;
+}
+
+.scroll {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    margin-left: 98%;
+}
+
+#namaku{
+	font-size: 3em !important;
+	color: white;
+	margin: 0;
+}
+
+.Hello{
+	padding: 2%;
+	width: 70%;
+	text-align: left;
+	font-size: 2em;
+}
+
+.logoan a{
+	font-size: 3em; 
+}
+
+.fotomuka{
+	margin-top: 5%;
+	width: 60%;
+	height: 30%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.education{
+	background-color: rgb(232, 233, 177);
+}
+
+#instagram{
+	width: 5%;
+	height: 4% !important;
+	padding-left: 5%;
+}
+
+#facebook{
+	width: 5%;
+	height: 3% !important;
+	padding-left: 1%;
+}
+
+#line{
+	display: flex;
+	width: 5%;
+	height: 2% !important;
+	padding-left: 1%;
+}
+
+.aku{
+	width: 50%;
+	height: 80%;
+	padding-left: 30%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#tulisanskill{
+	font-family: arial;
+	font-size: 2em;
+	text-align: center;
+	color: black;
+}
+
+
+#skill3{
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 120%;
+	margin-bottom: 2%;
+}
+
+
+#tulisanbio{
+	font-family: cursive;
+	font-size: 2em;
+	color: silver;
+}
+
+.isiabout{
+	font-family: arial;
+	font-weight: 3em;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.garisantengah{
+	color: rgb(4, 8, 12);
+	size: 10px;
+}
+
+#tulisanupdate{
+	font-size: 1em;
+}
+
+#gambaran{
+	margin-right: 5%;
+	width: 5%;
+}
+
+#gambaran1{
+	margin-right: 5%;
+	width: 5%;
+}
+
+#gambaran2{
+	margin-right: 5%;
+	width: 5%;
+}
+
+#gambaran3{
+	margin-right: 5%;
+	width: 5%;
+}
+
+.desc1{
+	font-family: Arial;
+	font-size: 0.8em;
+}
+
+
+.desc3,.desc5,.desced,.desc7{
+	text-align: justify;
+	font-family: Arial;
+	font-size: 0.8em;
+}
+
+#desc2,#desc4,#desc6,#desc8{
+	font-family: Segoe UI;
+	font-size: 1.2em;
+}
+
+.sidebar1 img{
+	width: 3%;
+	margin: 0%;
+	padding: 0%;
+}
+
+#copyright{
+	text-align: right;
+}
+
+@media screen and (max-width: 700px){
+	.row{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 200px){
+	#skill2 #skill3{
+		flex-direction: row;
+	}
+}
+
+
+
+
+
+
+
