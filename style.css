@@ -245,9 +245,9 @@ table{
 }
 
 #namaku{
-	font-size: 3em !important;
-	color: white;
-	margin: 0;
+	font-size: 2em !important;
+	color: blue;
+	margin-left: 55%;
 }
 
 .Hello{
